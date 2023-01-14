@@ -2,12 +2,12 @@ import { motion, AnimatePresence } from "framer-motion";
 const Sent = ({ show, setShow }) => {
   const overLay = {
     begin: { opacity: 0, top: "-100%" },
-    end: { opacity: 1, top: 0, transition: { duration: 2 } },
+    end: { opacity: 1, top: 0, transition: { duration: 1 } },
   };
 
   const modalMotion = {
     begin: { top: "-100px", opacity: 0 },
-    end: { top: "50%", transition: { duration: 3, delay: 2 }, opacity: 1 },
+    end: { top: "50%", transition: { duration: 1, delay: 1 }, opacity: 1 },
   };
 
   return (
