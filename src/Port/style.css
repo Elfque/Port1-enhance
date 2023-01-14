@@ -94,7 +94,6 @@ nav {
     background-color: #c71cf1;
     display: flex;
     flex-direction: column;
-    /* height: fit-content; */
     height: 100vh;
     top: 100%;
     width: fit-content;
@@ -123,8 +122,6 @@ nav {
     align-items: center;
   }
   .navbar ul.hide {
-    /* display: none; */
-    /* left: 100%; */
     right: -100%;
   }
 }
@@ -528,6 +525,7 @@ footer ul a {
   text-align: center;
   border-radius: 1rem;
   z-index: 2;
+  margin: 0 2rem;
 }
 .sent-modal button {
   padding: 0.5rem 1rem;
