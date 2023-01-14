@@ -519,22 +519,27 @@ footer ul a {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  max-width: 20rem;
+  width: 20rem;
   height: fit-content;
   padding: 2rem;
   text-align: center;
   border-radius: 1rem;
   z-index: 2;
-  margin: 0 2rem;
+  /* margin: 0 2rem; */
 }
 .sent-modal button {
   padding: 0.5rem 1rem;
   border-radius: 1.5rem;
-  background-color: rgb(240, 20, 248);
+  background-color: rgb(146, 1, 151);
   border: none;
   color: white;
   margin-top: 1rem;
 }
-
+@media (max-width: 400px) {
+  .sent-modal {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
 /* @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;500;600;700&display=swap'); */
 /* font-family: 'Lexend Deca', sans-serif; */
